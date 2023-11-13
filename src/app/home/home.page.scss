@@ -1,27 +1,9 @@
-#container {
-  text-align: center;
-
+.content-wrapper {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: url("https://images.unsplash.com/photo-1682686578456-69ae00b0ecbd?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8") !important;
+  background-size: cover !important;
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
 }

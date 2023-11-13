@@ -1,0 +1,48 @@
+<!-- contact.page.html -->
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>contact</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card *ngFor="let item of data.data">
+    <ion-card-content>
+      <h1>
+        {{ item.year}}
+      </h1>
+      <p>
+        {{ item.name + ' ' + item.color }}
+
+      </p>
+    </ion-card-content>
+
+  </ion-card>
+
+
+
+  <!-- <form (ngSubmit)="onSubmit()">
+    <ion-item>
+      Name
+      <ion-input [(ngModel)]="name" name="name" required></ion-input>
+    </ion-item>
+    <ion-item>
+      Surname
+      <ion-input [(ngModel)]="surname" name="surname" required></ion-input>
+    </ion-item>
+    <ion-item>
+      Phone Number
+      <ion-input [(ngModel)]="phoneNumber" name="phoneNumber" required></ion-input>
+    </ion-item>
+    <ion-item>
+      Email
+      <ion-input [(ngModel)]="email" name="email" type="email" required></ion-input>
+    </ion-item>
+    <ion-button type="submit">Submit</ion-button>
+  </form> -->
+</ion-content>
