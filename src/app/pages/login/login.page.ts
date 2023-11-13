@@ -38,5 +38,6 @@ export class LoginPage {
         })
         console.error(error);
       });
+     
   }
 }

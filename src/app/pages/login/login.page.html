@@ -1,5 +1,3 @@
-<!-- login.page.html -->
-
 <ion-header>
   <ion-toolbar>
     <ion-title>
@@ -8,7 +6,10 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content class="ion-padding">
+<ion-content class="dark-background ion-padding">
+  <!-- Add your logo -->
+  <img src="../../../assets/Logo.png" alt="Logo" class="logo">
+
   <ion-item>
     <ion-label position="floating">Username</ion-label>
     <ion-input [(ngModel)]="username" type="text"></ion-input>
@@ -19,4 +20,3 @@
   </ion-item>
   <ion-button expand="full" (click)="loginWithFirebase()">Login</ion-button>
 </ion-content>
-s
